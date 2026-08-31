@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ne">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Kathmandu Climate Week 2026 — अक्टोबर २–४, काठमाडौं" />
+    <title>Kathmandu Climate Week — 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ticker"><span>HIMALAYAS ARE SPEAKING</span><span>•</span><span>OCT 02—04, 2026</span><span>•</span><span>KATHMANDU, NEPAL</span></div>
+    <header class="nav">
+      <a class="brand" href="#top" aria-label="Kathmandu Climate Week home"><span>KC</span>W<span class="year">’26</span></a>
+      <nav aria-label="Main navigation"><a href="#about">About</a><a href="#program">Programme</a><a href="#join">Join us</a></nav>
+      <a class="nav-button" href="#join">Register <span>↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">A gathering for climate courage</p>
+          <h1>Climate<br /><em>Week</em><br />Kathmandu</h1>
+          <p class="hero-intro">Ideas from the mountains. Action for the world.</p>
+          <a class="round-link" href="#about"><span>Explore<br />the week</span><b>↓</b></a>
+        </div>
+        <div class="hero-art" aria-label="Stylised Himalayan landscape">
+          <div class="sun"></div><div class="ridge far"></div><div class="ridge middle"></div><div class="ridge near"></div>
+          <p class="date-stamp">02—04<br /><span>OCT</span></p>
+          <p class="elevation">27.7172° N<br />85.3240° E</p>
+        </div>
+      </section>
+
+      <section class="countdown" aria-labelledby="countdown-label">
+        <p id="countdown-label">Kathmandu is calling —</p>
+        <div id="timer" class="timer" aria-live="polite">
+          <div><strong id="days">00</strong><span>days</span></div><i>:</i><div><strong id="hours">00</strong><span>hours</span></div><i>:</i><div><strong id="minutes">00</strong><span>mins</span></div><i>:</i><div><strong id="seconds">00</strong><span>secs</span></div>
+        </div>
+        <p class="countdown-note">until Kathmandu Climate Week 2026</p>
+      </section>
+
+      <section class="intro" id="about">
+        <p class="section-kicker">Why we gather</p>
+        <div><h2>From the <em>roof of the world,</em> we rise together.</h2><p>Climate Week Kathmandu brings communities, policymakers, innovators and young leaders together to turn the urgency we feel into progress we can see.</p><a class="text-link" href="#program">Discover our purpose <span>→</span></a></div>
+      </section>
+
+      <section class="program" id="program">
+        <div class="program-heading"><p class="section-kicker">The programme</p><h2>Three days.<br /><em>One shared future.</em></h2></div>
+        <div class="days">
+          <article><div class="day-number">01</div><p class="day-date">FRI · OCT 02</p><h3>Roots</h3><p>Listen to the land. Hear the stories, knowledge and lived experience shaping resilient Himalayan communities.</p><a href="#join" aria-label="View day one programme">↗</a></article>
+          <article><div class="day-number">02</div><p class="day-date">SAT · OCT 03</p><h3>Rise</h3><p>Bring bold ideas into the open. Connect policy, finance, technology and youth-led solutions.</p><a href="#join" aria-label="View day two programme">↗</a></article>
+          <article><div class="day-number">03</div><p class="day-date">SUN · OCT 04</p><h3>Renew</h3><p>Make commitments that last. Leave with practical partnerships for a just climate future.</p><a href="#join" aria-label="View day three programme">↗</a></article>
+        </div>
+      </section>
+
+      <section class="statement"><p>“The mountains teach us:<br />what we protect today,<br /><em>protects us tomorrow.</em>”</p><span>— Kathmandu Climate Week</span></section>
+
+      <section class="join" id="join">
+        <div><p class="section-kicker">Be part of it</p><h2>Come shape<br />what’s <em>next.</em></h2></div>
+        <div class="join-card"><p>OCTOBER 02—04, 2026</p><h3>Kathmandu, Nepal</h3><p class="small">Registration opens soon. Add your name and be first to know about speakers, events and ways to participate.</p><form id="signup-form"><label class="sr-only" for="email">Email address</label><input id="email" type="email" placeholder="Your email address" required /><button type="submit">Keep me posted <span>→</span></button></form><p class="form-message" id="form-message"></p></div>
+      </section>
+    </main>
+    <footer><a class="brand" href="#top"><span>KC</span>W<span class="year">’26</span></a><p>Climate Week Kathmandu<br />October 02—04, 2026</p><p>Made for a cooler, kinder future.</p></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
